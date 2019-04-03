@@ -1,0 +1,100 @@
+{
+    "lapangan": [
+        {
+            "namaLapangan": "Nama Lapangan",
+            "lokasiLapangan": "Lokasi lapangan",
+            "imgLapangan" : "images/GOR_USU.jpg",
+            "tipeOlahragaImg": [
+                {
+                    "badminton": "icons/badmintonIco.svg",
+                    "futsal": "icons/futsalIco.svg",
+                    "renang": "icons/swimmingIco.svg"
+                }
+            ]
+        },
+        {
+            "namaLapangan": "Nama Lapangan1",
+            "lokasi lapangan": "Lokasi lapangan",
+            "imgLapangan" : "images/GOR-FOK.jpg",
+            "tipeOlahragaImg": [
+                {
+                    "badminton": "icons/badmintonIco.svg",
+                    "futsal": "icons/futsalIco.svg",
+                    "renang": "icons/swimmingIco.svg"
+                }
+            ]
+        },
+        {
+            "namaLapangan": "Nama Lapangan2",
+            "lokasi lapangan": "Lokasi lapangan",
+            "imgLapangan" : "images/GOR_SAGARANTEN.jpg",
+            "tipeOlahragaImg": [
+                {
+                    "badminton": "icons/badmintonIco.svg",
+                    "futsal": "icons/futsalIco.svg",
+                    "renang": "icons/swimmingIco.svg"
+                }
+            ]
+        },
+        {
+            "namaLapangan": "Nama Lapangan3",
+            "lokasi lapangan": "Lokasi lapangan",
+            "imgLapangan" : "images/GOR_RIAU.jpg",
+            "tipeOlahragaImg": [
+                {
+                    "badminton": "icons/badmintonIco.svg",
+                    "futsal": "icons/futsalIco.svg",
+                    "renang": "icons/swimmingIco.svg"
+                }
+            ]
+        },
+        {
+            "namaLapangan": "Nama Lapangan4",
+            "lokasi lapangan": "Lokasi lapangan",
+            "imgLapangan" : "images/kolamRenang.jpeg",
+            "tipeOlahragaImg": [
+                {
+                    "badminton": "icons/badmintonIco.svg",
+                    "futsal": "icons/futsalIco.svg",
+                    "renang": "icons/swimmingIco.svg"
+                }
+            ]
+        },
+        {
+            "namaLapangan": "Nama Lapangan5",
+            "lokasi lapangan": "Lokasi lapangan",
+            "imgLapangan" : "images/olympicSwimmingPool.jpg",
+            "tipeOlahragaImg": [
+                {
+                    "badminton": "icons/badmintonIco.svg",
+                    "futsal": "icons/futsalIco.svg",
+                    "renang": "icons/swimmingIco.svg"
+                }
+            ]
+        },
+        {
+            "namaLapangan": "Nama Lapangan6",
+            "lokasi lapangan": "Lokasi lapangan",
+            "imgLapangan" : "images/olympicSwimmingPool.jpg",
+            "tipeOlahragaImg": [
+                {
+                    "badminton": "icons/badmintonIco.svg",
+                    "futsal": "icons/futsalIco.svg",
+                    "renang": "icons/swimmingIco.svg"
+                }
+            ]
+        },
+        {
+            "namaLapangan": "Nama Lapangan7",
+            "lokasi lapangan": "Lokasi lapangan",
+            "imgLapangan" : "images/olympicSwimmingPool.jpg",
+            "tipeOlahragaImg": [
+                {
+                    "badminton": "icons/badmintonIco.svg",
+                    "futsal": "icons/futsalIco.svg",
+                    "renang": "icons/swimmingIco.svg"
+                }
+            ]
+        }
+    ]
+}
