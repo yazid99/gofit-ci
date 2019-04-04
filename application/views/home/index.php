@@ -1,4 +1,8 @@
-
+<?php if ($this->session->flashdata('logout')) : ?>
+                <div class="alert alert-success alert-dismissible fade show" role="alert" style="color:red">
+                    <?= $this->session->flashdata('logout'); ?>.
+                </div>
+    <?php endif; ?>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

@@ -1,10 +1,8 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
     <head> 
 		<!-- Website CSS style -->
-		<link rel="stylesheet" type="text/css" href="regis.css">
+		<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>/assets/css/regis.css">
 		
 		<!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet">
@@ -29,49 +27,54 @@
 		<div class="container">
 			<div class="d-flex justify-content-center mx-auto">
                     <div class="form col-4 p-4 mt-5">
-					    <form class="form-horizontal" method="post" action="#">
+					    <form class="form-horizontal" method="post" action="">
 						
 						<div class="form-group">
 							<label for="name" class="cols-sm-2 control-label">Your Name</label>
 							<div class="cols-sm-10">
-									<input type="text" class="form-control" name="tf_name" id="name"  placeholder="Enter your Name"/>
+									<input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
+									<small class="form-text text-danger"><?= form_error('name') ?>.</small>
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label for="email" class="cols-sm-2 control-label">Your Email</label>
 							<div class="cols-sm-10">
-									<input type="text" class="form-control" name="tf_email" id="email"  placeholder="Enter your Email"/>
+									<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+									<small class="form-text text-danger"><?= form_error('email') ?>.</small>
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label for="username" class="cols-sm-2 control-label">Username</label>
 							<div class="cols-sm-10">
-									<input type="text" class="form-control" name="tf_username" id="username"  placeholder="Enter your Username"/>
+									<input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+									<small class="form-text text-danger"><?= form_error('username') ?>.</small>
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label for="password" class="cols-sm-2 control-label">Password</label>
 							<div class="cols-sm-10">
-									<input type="password" class="form-control" name="tf_password" id="password"  placeholder="Enter your Password"/>
+									<input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+									<small class="form-text text-danger"><?= form_error('password') ?>.</small>
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
 							<div class="cols-sm-10">
-									<input type="password" class="form-control" name="tf_pasconfirm" id="confirm"  placeholder="Confirm your Password"/>
+									<input type="password" class="form-control" name="pasconfirm" id="confirm"  placeholder="Confirm your Password"/>
+									<small class="form-text text-danger"><?= form_error('pasconfirm') ?>.</small>
 							</div>
 						</div>
 
 						<div class="form-group ">
-							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Daftar</button>
+							<button type="submit" name="registrasi" class="btn btn-primary btn-lg btn-block login-button">Daftar</button>
 						</div>
 						<div class="login-register d-flex justify-content-center">
                             <span style="color: grey; font-size: 14px"> Telah Terdaftar? </span>
-				            <a href="loginPage.html">Login</a>
+				            <a href="<?=base_url() ?>login">Login</a>
 				         </div>
                         </form>
                     </div>

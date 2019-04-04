@@ -29,7 +29,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url(); ?>misc  ">
+                    <a class="nav-link" href="<?= base_url(); ?>misc">
                         <p>Lapangan</p>
                     </a>
                 </li>
@@ -38,10 +38,18 @@
                         <p>About Us</p>
                     </a>
                 </li>
-            </ul>
+            </ul> 
+            <?php if(!isset($_SESSION['nama'])){?>
             <div class="reg-btn ">
-                <a href="<?= base_url(); ?>LapanganKat/index" class="login mr-2"> Login </a>
+                <a href="<?= base_url(); ?>login" class="login mr-2"> Login </a>
                 <a href="<?= base_url(); ?>misc/registrasi" class="reg">Register</a>
             </div>
+            <?php }else { ?>
+                <div class="reg-btn ">
+                    <a href="#" class="reg"><?= $_SESSION['username'] ?></a>
+                    <a href="<?= base_url(); ?>login/logout" class="login mr-2"> Logout </a>
+                </div>
+            <?php } ?>
         </div>
     </nav>
+    
