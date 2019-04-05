@@ -11,13 +11,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="http://basketballvictoria.com.au/wp-content/uploads/2018/05/bendigo1.jpg" class="d-block w-100" alt="load">
+                <img src="<?= base_url(); ?>/assets/images/GOR_RIAU.JPG" class="d-block w-100" alt="load">
             </div>
             <div class="carousel-item">
-                <img src="https://www.booknplay.in/uploads/gallery/557/1526766052-BWings_Badminton_Arena.jpeg" class="d-block w-100" alt="load">
+                <img src="<?= base_url(); ?>/assets/images/kolamRenang.jpeg" class="d-block w-100" alt="load">
             </div>
             <div class="carousel-item">
-                <img src="images/GOR_RIAU.JPG" class="d-block w-100" alt="load img">
+                <img src="<?= base_url(); ?>/assets/images/GOR_SAGARANTEN.jpg" class="d-block w-100" alt="load img">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

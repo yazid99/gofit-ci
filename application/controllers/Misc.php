@@ -30,7 +30,7 @@ class Misc extends CI_CONTROLLER
         }else{
             $this->Users_Model->tambahDataUser();
 			$this->session->set_flashdata('flash','Registrasi');
-			redirect('misc/login');
+			redirect('login/index');
         }
 
     }
