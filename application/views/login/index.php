@@ -11,16 +11,17 @@
 <body>
     <div class="login-page">
     <div class="d-flex justify-content-center mx-auto">
-    <?php if ($this->session->flashdata('flash')) : ?>
-         <div class="row mt-3">
-            <div class="col-md-6">
-                <h4><?= $this->session->flashdata('flash'); ?> berhasil silahkan login.</h4>
-            </div>
-        </div>
-    <?php endif; ?>
+    
     </div>
         <div class="form">
             <form class="login-form" method="POST" action="<?=base_url('login/proses_login')?>">
+                <?php if ($this->session->flashdata('flash')) : ?>
+         <div class="row mt-3">
+            <div class="col-md-6">
+                <h4><?php echo $this->session->flashdata('flash'); ?> berhasil silahkan login.</h4>
+            </div>
+        </div>
+    <?php endif; ?>
                 <?php if ($this->session->flashdata('gagal')) : ?>
                     <div class="row mt-3">
                         <div class="col-md-6">

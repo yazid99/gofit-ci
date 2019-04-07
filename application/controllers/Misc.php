@@ -18,7 +18,6 @@ class Misc extends CI_CONTROLLER
 
     public function registrasi()
     {
-        $stat = "1";
         $this->form_validation->set_rules('name','Name','trim|required');
         $this->form_validation->set_rules('email','Email','trim|required');
         $this->form_validation->set_rules('username','Username','trim|required');
