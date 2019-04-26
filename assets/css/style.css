@@ -80,6 +80,13 @@ ul {
     background-color: #D3D3D3;
     transition: 0.15s;
 }
+.war-cust{
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 2px;
+}
 
 footer{
     background-color: #222222;

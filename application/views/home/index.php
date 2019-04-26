@@ -9,7 +9,7 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner">
+        <div class="carousel-inner" style="height: 58rem" style="overflow-y: hidden;">
             <div class="carousel-item active">
                 <img src="<?= base_url(); ?>/assets/images/GOR_RIAU.JPG" class="d-block w-100" alt="load">
             </div>

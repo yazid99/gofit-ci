@@ -7,10 +7,13 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
     <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>/assets/css/katStyle.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>/assets/css/bootstrap-datepicker.min.css">
+
 </head>
 
 <body>
@@ -46,6 +49,7 @@
             </div>
             <?php }else { ?>
                 <div class="reg-btn ">
+                    <a href="<?=base_url() ?>C_cart"><button type="button" class="btn btn-warning war-cust" >Cart</button></a>
                     <a href="#" class="reg"><?= $_SESSION['username'] ?></a>
                     <a href="<?= base_url(); ?>login/logout" class="login mr-2"> Logout </a>
                 </div>
