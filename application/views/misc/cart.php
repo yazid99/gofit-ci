@@ -8,7 +8,7 @@
             </div>
             <div class="card-body">
                 <?php if (empty($laps)) {?>
-                    <h1> Keranjang belanda anda kosong, Sewa Lapangan <a href="<?=base_url()?>/Misc">Disini</a></h1>
+                    <h1> Keranjang belanja anda kosong, Sewa Lapangan <a href="<?=base_url()?>/Misc">Disini</a></h1>
                 <?php }else{ ?>
                 <?php foreach ($laps as $lap) { ?>
                     <!-- PRODUCT -->
@@ -19,12 +19,12 @@
                         <div class="col-12 text-sm-center col-sm-12 text-md-left col-md-6">
                             <h4 class="product-name"><strong><?= $lap->nama_lapangan?></strong></h4>
                             <h4>
-                                <small><?= $lap->deskripsi_lapangan?> (Tanggal sekian) (Pukul Sekian) </small>
+                                <small><?= $lap->deskripsi_lapangan?> (2019-04-27) (12.00-13.00) </small>
                             </h4>
                         </div>
                         <div class="col-12 col-sm-12 text-sm-center col-md-4 text-md-right row">
                             <div class="col-10 col-sm-3 col-md-6 text-right" style="padding-top: 5px">
-                                <h6><strong>Rp35.000</strong></h6>
+                                <h6><strong>Rp56.500</strong></h6>
                             </div>
                             <div class="col-2 col-sm-2 col-md-2 text-right">
                                 <a href="<?= base_url() ?>C_cart/deleteCartContent/<?=$lap->id_bookingan?>"><button type="button" class="btn btn-outline-danger btn-xs">

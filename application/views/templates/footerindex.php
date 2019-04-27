@@ -25,7 +25,7 @@
         <div class="container p-2">
             <a href="#"><img class="socmed-icon float-right ml-4 mt-2" src="<?= base_url(); ?>/assets/icons/facebook.png"> </a>
             <a href="#"><img class="socmed-icon float-right mt-2" src="<?= base_url(); ?>/assets/icons/twitter.png"></a>
-            <a href="index.html">
+            <a href="<?= base_url(); ?>">
                 <h3 class="brand-footer">Go Fit</h3>
             </a>
         </div>
